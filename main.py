@@ -1,8 +1,12 @@
 # Example file showing a basic pygame "game loop"
 import pygame
+import sys
 
 # pygame setup
 pygame.init()
+pygame.mixer.init()
+
+
 screen = pygame.display.set_mode((1280, 720))
 clock = pygame.time.Clock()
 running = True

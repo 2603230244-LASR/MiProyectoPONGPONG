@@ -1,2 +1,6 @@
+#Archivos ignorados
+
 *.venv
+*.mp3
+
 
